@@ -1,0 +1,16 @@
+#im1 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/im1.png');
+}
+#im2 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/im2.png');
+}
+#im3 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/im3.png');
+}
+#im4{
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/im4.png');
+}

@@ -1,0 +1,12 @@
+#im12 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/im12.png');
+}
+#line1 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/line_orange.png');
+}
+#line2 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/line_orange.png');
+}

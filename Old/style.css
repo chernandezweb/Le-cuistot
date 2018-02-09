@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0px; padding:0px;}
+img { border:none;}
+div { overflow:hidden;}
+h1 { font-family: Arial, Helvetica, sans-serif; font-size:40px; color: #222; text-decoration:none; font-weight:normal;}
+h2 { font-family: Arial, Helvetica, sans-serif; font-size:19px; color: #222; text-decoration:none; font-weight:normal;}
+h3 { font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#212121; text-decoration:none; font-weight:normal;}
+p { font-family: Arial, Helvetica, sans-serif; font-size:13px; color:#555; text-decoration: none; font-weight: normal;}
+
+.f_left { float:left;}
+.f_right { float:right;}
+.clear {height:0 !important; clear: both !important; margin:0 !important; padding:0 !important; border:0 !important; overflow:hidden; float:none !important;}
+
+.main { width: 974px; height:auto; margin:0 auto;}
+.main_bg { width: 974px; height:auto; background:url(images/main_bg_mid.jpg) repeat-y; margin-top:98px;}
+.main_top { width:974px; height:30px; background:url(images/main_bg_top.jpg) no-repeat; overflow:hidden;}
+.main_bot { width:974px; height:32px; background:url(images/main_bg_bot.jpg) no-repeat; overflow:hidden;}
+
+.content { width:954px; margin-left:20px;}
+.header { width:935px; height:288px; background: url(images/header_bg.jpg) no-repeat; position:relative;} 
+.header a { display:block; width:74px; height:42px; padding-left:24px; padding-top:8px; font-family: Arial, Helvetica, sans-serif; font-size:48px; color:#1189cc; text-decoration: none; font-weight: normal; }
+.header_img { padding-right: 124px; margin-top:9px; width:202px; height:225px;}
+
+.box{ width:935px; background:url(images/box_mid.jpg) repeat-y; margin-top: 19px;}
+.box_top { width:935px; height:10px; background:url(images/box_top.jpg) no-repeat;}
+.box_bot { width:935px; height:10px; background:url(images/box_bot.jpg) no-repeat;}
+
+.box_cont { width:281px; float:left;}
+.box_cont h3{ padding-top:19px;}
+.box_cont p{ padding-top:5px;}
+
+.footer { width:974px; height:70px;}
+.footer p{ font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#99999d; text-decoration: none; font-weight: normal; padding-top:33px;}
+

@@ -1,0 +1,268 @@
+/*
+================================================================================
+|                                     TAGS                                     |
+================================================================================
+*/
+body {
+	background-color: white;
+	background-image: url(img/body.default.jpg);
+	background-repeat: repeat-y;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #429792;
+}
+ul {
+	text-align: justify;
+	margin: 0px;
+	padding: 10px 0px 5px 15px;
+	list-style-type: square;
+	list-style-position: outside;
+	list-style-image: url(img/mark.gif);
+}
+li {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 13px;
+	color: #429792;
+	margin: 0px;
+	padding: 5px 0px 0px 0px;
+}
+/*
+================================================================================
+|                                    HEADER                                    |
+================================================================================
+*/
+#ESWpageTitle, #ESWpageTagline {
+	z-index: 100;
+}
+#ESWpageTitle {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FA6A21;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 377px;
+	top: 45px;
+}
+#ESWpageTagline {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 382px;
+	top: 78px;
+	letter-spacing:2px;
+}
+/*
+================================================================================
+|                                     MENU                                     |
+================================================================================
+*/
+#ESWuserMenuPosition {
+	position: absolute;
+	left: 44px;
+	top: 265px;
+	z-index: 100;
+}
+#ESWuserMenu {
+	position: static;
+	width: 140px;
+}
+div.ESWuserButton0 {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #6A6D6C;
+	text-align: left;
+	margin: 0px;
+	padding: 5px 5px 5px 10px;
+}
+div.ESWuserButton0:hover {
+	color: #FFFFFF;	
+}
+div.ESWuserButton1 {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	margin: 0px;
+	padding: 2px 5px 2px 10px;
+}
+div.ESWuserButton1:hover {
+	color: #FFFFFF;
+	background-image: url(img/b0_a.gif);
+	background-repeat: no-repeat;
+	background-position: 1px 7px;
+}
+/*
+================================================================================
+|                                    CONTENT                                   |
+================================================================================
+*/
+.ESWpageContent {
+	padding: 0px;
+	position: absolute;
+	width: 600px;
+	left: 271px;
+	top: 146px;
+}
+.ESWpageContent1 {
+	padding: 0px;
+	position: absolute;
+	width: 287px;
+	left: 270px;
+	top: 276px;
+}
+.ESWpageContent2 {
+	padding: 0px;
+	position: absolute;
+	width: 292px;
+	left: 584px;
+	top: 274px;
+}
+.ESWpageContent3 {
+	padding: 0px;
+	position: absolute;
+	width: 210px;
+  	left: 279px;
+ 	top: 391px;
+}
+.ESWpageContent4 {
+	padding: 0px;
+	position: absolute;
+	width: 189px;
+  	left: 679px;
+ 	top: 391px;
+}
+.ESWpageContent5 {
+	padding: 0px;
+	position: absolute;
+	width: 10px;
+  	left: 10px;
+ 	top: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF6600;
+	text-align: left;
+	margin: 3px 5px 5px 5px;
+	padding: 0px;
+}
+h1{
+	color: #393938;
+	font-size: 30px;
+}
+p {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #393939;
+	text-align: justify;
+	margin: 0px 5px 0px 5px;
+	padding: 0px;
+}
+br{
+	height: 10px;
+}
+/*
+================================================================================
+|                                    DESIGN                                    |
+================================================================================
+*/
+#bg {
+	background-image: url(img/bg.default.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 582px;
+	width: 900px;
+	left: 0px;
+	top: 0px;
+}
+#background {
+	background-image: url(img/background.jpg);
+	background-repeat: repeat-x;
+	position: absolute;
+	height: 852px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	min-width:900px;
+}
+#im1 {
+	background-image: url(img/im1.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 139px;
+	width: 100px;
+	left: 138px;
+	top: 15px;
+}
+#im2 {
+	background-image: url(img/im2.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 195px;
+	width: 113px;
+	left: 37px;
+	top: 28px;
+}
+#im3 {
+	background-image: url(img/im3.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 206px;
+	width: 150px;
+	left: 92px;
+	top: 15px;
+}
+#im4 {
+	background-image: url(img/im4.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 78px;
+	width: 84px;
+	left: 588px;
+	top: 403px;
+}
+#im5 {
+	background-image: url(img/im5.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 78px;
+	width: 82px;
+	left: 586px;
+	top: 498px;
+}
+#blue {
+	background-color: #C1F5F2;
+	position: absolute;
+	height: 187px;
+	width: 300px;
+	left: 577px;
+	top: 394px;
+}
+
